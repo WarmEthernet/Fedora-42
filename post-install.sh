@@ -48,7 +48,7 @@ sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-releas
 
 echo "Installing Apps from Extra Repos and other sources......."
 
-sudo dnf install brave browser
+sudo dnf install brave-browser
 
 pip3 install pywal16
 

@@ -48,13 +48,13 @@ sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-releas
 
 echo "Installing Apps from Extra Repos and other sources......."
 
-sudo dnf install brave-browser
+sudo dnf install -y brave-browser
 
 pip3 install pywal16
 
 pip3 install --upgrade gnome-extensions-cli
 
-flatpak install com.mattjakeman.ExtensionManager
+flatpak install -y com.mattjakeman.ExtensionManager
 
 
 echo "Installing Extensions........"
